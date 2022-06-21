@@ -1,0 +1,48 @@
+:root {
+    --body-bg-color: white ;
+    --body-text-default-color:gray;
+
+    --top-menu-bg-color: rgba(248,249,250,1);
+    --top-menu-brand-color:rgb(53, 52, 52);
+    --top-menu-button-color:rgb(187, 184, 184);
+    --top-menu-link-color:gray;
+
+    --section-abertura-text-color: black;
+
+  }
+  
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color: var(--body-bg-color);
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: var(--body-text-default-color);
+}
+
+#top-menu .nav-item {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#top-menu .nav-item a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+#abertura {
+    background-image: url("../../images/abertura_supermercado.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    color: var(--section-abertura-text-color);
+}
+
+.asagiSabit {
+    position: fixed;
+    bottom: 45px;
+    right: 29px;
+    z-index: 999;
+}
